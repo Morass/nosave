@@ -1,0 +1,15 @@
+{
+  "name": "nosave",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Removes the Save button Google Images shows over a picture on hover.",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^22.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
