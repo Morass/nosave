@@ -12,7 +12,7 @@ if cmp -s src/nosave.js "$scratch/src/nosave.js"; then
   exit 1
 fi
 set +e
-NODE_PATH="$(pwd)/node_modules" node --test "$scratch/test/nosave.test.js" >"$scratch/output.log" 2>&1
+NODE_PATH="$(pwd)/node_modules" node --test --test-reporter=spec "$scratch/test/nosave.test.js" >"$scratch/output.log" 2>&1
 status=$?
 set -e
 if [ "$status" -eq 0 ]; then
