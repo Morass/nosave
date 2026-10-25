@@ -10,6 +10,8 @@ that replaces it on pictures you have already saved. The rest of the page,
 including the **Save** button in the preview panel that opens beside the results, stays
 as it is.
 
+![Before: hovering over a picture shows a Save button in its corner. With nosave: only the picture.](docs/before-after.png)
+
 nosave is an independent extension, not made by or affiliated with Google.
 
 ## Install
